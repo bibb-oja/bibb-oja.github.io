@@ -4,6 +4,8 @@ gem "github-pages", "~> 231", group: :jekyll_plugins
 gem "minima", "~> 2.5"
 gem "jekyll-feed", "~> 0.12"
 gem "jekyll-seo-tag", "~> 2.8"
+gem "csv"
+gem "faraday-retry"
 
 # Windows and JRuby do not include zoneinfo files
 platforms :mingw, :x64_mingw, :mswin, :jruby do
