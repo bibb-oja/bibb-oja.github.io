@@ -1,10 +1,10 @@
 members:
-  - name: "Prof. Dr. Example Name"
-    role: "Project Lead"
-    affiliation: "Department/Institution"
-    bio: "Research focus on labor market dynamics and occupational data. [Contact info or link]"
+  - name: "Johanna Binnewitt"
+    role: "Researcher"
+    affiliation: "BIBB / Universität zu Köln"
+    bio: "Hier steht was"
   
-  - name: "Dr. Second Team Member"
+  - name: "Hier ein weiterer Mensch"
     role: "Senior Researcher"
     affiliation: "Department/Institution"
     bio: "Expertise in computational linguistics and NLP applications to occupational research."

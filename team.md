@@ -18,10 +18,6 @@ description: Meet the research team driving OJA job advertisement analysis.
   {% endfor %}
 </div>
 
-<section class="content-card">
-  <h2>Institutional context</h2>
-  <p>We are supported by <a href="https://www.bibb.de/">BIBB</a>, while keeping a focused research agenda on occupation-related data and student collaboration.</p>
-</section>
 
 <section class="content-card">
   <h2>Contact</h2>

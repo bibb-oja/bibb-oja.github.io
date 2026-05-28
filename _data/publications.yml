@@ -1,19 +1,7 @@
 items:
-  - title: "Job Postings as Data Source: Methodological Considerations"
-    authors: "Team OJA et al."
-    year: 2024
-    journal: "Journal of Occupational Research"
-    doi: "10.1234/example.2024.001"
-    description: "An overview of using web-scraped job advertisements for occupational research, including data collection methods and ethical considerations."
-  
-  - title: "Evolving Skill Requirements in the Digital Transition"
-    authors: "OJA Researchers"
-    year: 2023
-    journal: "Computational Linguistics Review"
-    doi: "10.1234/example.2023.002"
-    description: "Analysis of how NLP techniques reveal changing skill demands in job advertisements during digital transformation."
-  
-  - title: "Gender Dynamics in Job Advertisement Language"
-    authors: "Research Team"
-    year: 2023
-    description: "A computational study of gendered language patterns in job postings across sectors."
+  - title: "Improving Online Job Advertisement Analysis via Compositional Entity Extraction"
+    authors: "Kr{\"u}ger, Kai and Binnewitt, Johanna and Ehmann, Kathrin and Winnige, Stefan and Akbik, Alan"
+    year: 2025
+    journal: "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
+    doi: "10.18653/v1/2025.emnlp-main.1375"
+    description: "We propose a compositional entity modeling framework for requirement extraction from online job advertisements (OJAs), representing complex, tree-like structures that connect atomic entities via typed relations. Based on this schema, we introduce GOJA, a manually annotated dataset of 500 German job ads that captures roles, tools, experience levels, attitudes, and their functional context."
