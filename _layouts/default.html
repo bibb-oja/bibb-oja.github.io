@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 | default: site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="page-width header-inner">
+        <div class="brand">
+          <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+          <p class="site-tagline">{{ site.description }}</p>
+        </div>
+        <nav class="site-navigation">
+          {% for item in site.navigation %}
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-width main-content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-width footer-inner">
+        <p>OJA Job Advertisement Analysis · supported by BIBB · {{ site.time | date: "%Y" }}</p>
+      </div>
+    </footer>
+  </body>
+</html>

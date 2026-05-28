@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 ---
 
 <div class="hero">
@@ -12,17 +12,19 @@ layout: home
   </div>
 </div>
 
-<div class="page-content">
+<section class="content-card">
+  <div class="section-intro">
+    <p>OJA analyzes occupational data from job advertisements to make labor market trends visible, support student research, and publish findings for academic and policy audiences.</p>
+  </div>
 
-## What we do
+  <h2>What we do</h2>
+  <ul>
+    <li>Analyze skill requirements in job markets</li>
+    <li>Identify occupational trends and labor demand shifts</li>
+    <li>Apply natural language processing to job posting text</li>
+    <li>Connect research to economics and social science perspectives</li>
+  </ul>
 
-Our work explores:
-- Skill requirements in job markets
-- Occupational trends and dynamics
-- Language analysis in job postings
-- Labor economics perspectives
-
-## Why this matters
-
-Job advertisements are a rich source of data for understanding how labor demand changes over time, which skills are most valued, and how occupational roles evolve across industries.
-</div>
+  <h2>Why it matters</h2>
+  <p>Job advertisements are a rich and timely data source for understanding how work is changing, which skills are most valued, and how employers signal labor market needs.</p>
+</section>

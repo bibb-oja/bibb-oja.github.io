@@ -2,26 +2,29 @@
 layout: page
 title: Student Topics
 permalink: /topics/
+description: Potential student research topics grouped by discipline.
 ---
 
-# Student Research Topics
-
-We welcome students from diverse backgrounds. Below are potential research directions:
+<p class="section-intro">Potential student projects for computer science, digital humanities, social science, and economics focusing on job advertisement analysis.</p>
 
 {% assign topics = site.data.topics.categories %}
 
 {% for category in topics %}
-## {{ category.name }}
-
-{{ category.description }}
-
-{% for topic in category.items %}
-- **{{ topic.title }}**: {{ topic.description }}
+  <section class="topic-category">
+    <h2>{{ category.name }}</h2>
+    <p>{{ category.description }}</p>
+    <div class="topic-grid">
+      {% for topic in category.items %}
+        <article class="card topic-card">
+          <h3>{{ topic.title }}</h3>
+          <p>{{ topic.description }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
 {% endfor %}
 
----
-{% endfor %}
-
-## How to Get Started
-
-Interested in one of these topics? Contact our team to discuss specific research questions and project scope.
+<section class="content-card">
+  <h2>How to get started</h2>
+  <p>Interested in one of these topics? Contact our team to define a clear project scope, research question, and timeline.</p>
+</section>
