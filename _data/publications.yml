@@ -1,0 +1,19 @@
+items:
+  - title: "Job Postings as Data Source: Methodological Considerations"
+    authors: "Team OJA et al."
+    year: 2024
+    journal: "Journal of Occupational Research"
+    doi: "10.1234/example.2024.001"
+    description: "An overview of using web-scraped job advertisements for occupational research, including data collection methods and ethical considerations."
+  
+  - title: "Evolving Skill Requirements in the Digital Transition"
+    authors: "OJA Researchers"
+    year: 2023
+    journal: "Computational Linguistics Review"
+    doi: "10.1234/example.2023.002"
+    description: "Analysis of how NLP techniques reveal changing skill demands in job advertisements during digital transformation."
+  
+  - title: "Gender Dynamics in Job Advertisement Language"
+    authors: "Research Team"
+    year: 2023
+    description: "A computational study of gendered language patterns in job postings across sectors."

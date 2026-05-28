@@ -1,0 +1,32 @@
+title: OJA - Job Advertisement Analysis
+description: Research on occupational requirements and dynamics in job advertisements
+baseurl: "" # Leave empty if deploying to bibb-oja@github.io
+url: "https://bibb-oja.github.io"
+
+# Theme
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Author/Site info
+author:
+  name: OJA Research Team
+  email: your-email@bibb.de
+
+# Collections
+collections:
+  publications:
+    output: false
+  topics:
+    output: false
+
+# Exclude from build
+exclude:
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - README.md

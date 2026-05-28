@@ -1,0 +1,36 @@
+categories:
+  - name: "Computer Science / NLP"
+    description: "Projects focused on computational analysis and natural language processing of job advertisements."
+    items:
+      - title: "Named Entity Recognition for Job Competencies"
+        description: "Develop NLP models to automatically extract and classify technical skills from job postings."
+      - title: "Job Advertisement Clustering and Classification"
+        description: "Use machine learning to group similar positions and identify emerging job categories."
+      - title: "Resume-Job Description Matching"
+        description: "Build systems to match candidate profiles with relevant job postings using similarity metrics."
+      - title: "Temporal Trend Analysis in Skill Demands"
+        description: "Analyze how skill requirements evolve over time using time-series analysis of job data."
+
+  - name: "Computational Social Science / Digital Humanities"
+    description: "Interdisciplinary approaches combining computational methods with qualitative insights."
+    items:
+      - title: "Discourse Analysis of Job Posting Language"
+        description: "Examine rhetorical strategies and framing in job advertisements across different sectors."
+      - title: "Social Network Analysis of Labor Market Requirements"
+        description: "Map relationships between skills, job categories, and educational pathways."
+      - title: "Visualization of Occupational Landscapes"
+        description: "Create interactive visualizations of labor market dynamics and skill ecosystems."
+      - title: "Comparative Analysis of Job Markets Across Regions"
+        description: "Analyze differences in occupational structures and requirements across geographical areas."
+
+  - name: "Social Science / Economics"
+    description: "Research on labor economics, skill demands, and occupational trends."
+    items:
+      - title: "Returns to Education and Skills in the Labor Market"
+        description: "Analyze the economic value of different educational credentials using job posting requirements."
+      - title: "Wage Premiums and Skill Requirements"
+        description: "Investigate correlations between job demands and compensation across occupations."
+      - title: "Occupational Mobility and Transferable Skills"
+        description: "Study how skill profiles relate to career transitions and occupational mobility."
+      - title: "Sectoral Shifts and Skills Displacement"
+        description: "Examine labor market disruption and skill relevance during sector transitions."

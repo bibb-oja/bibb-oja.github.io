@@ -1,0 +1,15 @@
+members:
+  - name: "Prof. Dr. Example Name"
+    role: "Project Lead"
+    affiliation: "Department/Institution"
+    bio: "Research focus on labor market dynamics and occupational data. [Contact info or link]"
+  
+  - name: "Dr. Second Team Member"
+    role: "Senior Researcher"
+    affiliation: "Department/Institution"
+    bio: "Expertise in computational linguistics and NLP applications to occupational research."
+  
+  - name: "Team Member Name"
+    role: "Researcher"
+    affiliation: "Department/Institution"
+    bio: "Working on social science perspectives on labor market analysis."
