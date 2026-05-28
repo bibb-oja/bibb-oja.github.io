@@ -24,6 +24,14 @@ collections:
   topics:
     output: false
 
+navigation:
+  - title: "Publications"
+    url: /publications/
+  - title: "Student Topics"
+    url: /topics/
+  - title: "Team"
+    url: /team/
+
 # Exclude from build
 exclude:
   - .gitignore
