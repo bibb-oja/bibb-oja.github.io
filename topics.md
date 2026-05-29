@@ -26,5 +26,5 @@ description: Potential student research topics grouped by discipline.
 
 <section class="content-card">
   <h2>How to get started</h2>
-  <p>Interested in one of these topics? Contact our team to define a clear project scope, research question, and timeline.</p>
+  <p>Interested in one of these topics or have other ideas? Contact our team to define a clear project scope, research question, and timeline.</p>
 </section>
