@@ -15,7 +15,7 @@ description: A curated list of publications from the OJA research team.
         <h2>{{ pub.title }}</h2>
         <p class="meta">{{ pub.authors }} · {{ pub.year }}{% if pub.journal %} · {{ pub.journal }}{% endif %}</p>
         <p>{{ pub.description }}</p>
-        {% if pub.doi %}
+        {% if pub.doi and pub.doi != "" %}
           <p><a class="text-link" href="https://doi.org/{{ pub.doi }}" target="_blank">Read the publication</a></p>
         {% endif %}
       </article>

@@ -24,15 +24,24 @@ items:
     authors: "Grüner, Lea and Krüger, Kai"
     year: 2024
     journal: "Preprints of Communication Papers of the FedCSIS 2024"
-    doi: ""
-    description: "The paper explores linguistic and cultural differences in online job advertisement analysis and discusses their implications for NLP applications."
+    doi: "10.15439/2024F5992"
+    description: "The paper examines cross-lingual and cultural differences in online job advertisements and discusses how these differences affect the transferability of NLP methods. It highlights that OJA-based labour-market analysis cannot simply assume that models, categories, and research designs transfer unchanged across languages and national contexts"
 
-  - title: "Improving Online Job Advertisement Analysis via Compositional Entity Extraction"
-    authors: "Krüger, Kai and Binnewitt, Johanna and Ehmann, Kathrin and Winnige, Stefan and Akbik, Alan"
-    year: 2025
-    journal: "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
-    doi: "10.18653/v1/2025.emnlp-main.1375"
-    description: "We propose a compositional entity modeling framework for requirement extraction from online job advertisements (OJAs), representing complex, tree-like structures that connect atomic entities via typed relations. Based on this schema, we introduce GOJA, a manually annotated dataset of 500 German job ads that captures roles, tools, experience levels, attitudes, and their functional context."
+ 
+  - title: "Using Explainable AI for Robustness Checks in Requirement Level Classification for German Online Job Advertisements"
+    authors: "Krüger, Kai"
+    year: 2024
+    journal: "International Workshop on AI in Education and Educational Research"
+    doi: "10.1007/978-3-031-93409-4_1"
+    description: "The paper applies explainable AI, particularly Integrated Gradients, to requirement-level classification in German online job advertisements. It uses model explanations as a robustness check to examine whether classification decisions rely on meaningful textual signals rather than artefacts or spurious patterns."
+
+  - title: "Ausklasser - a classifier for German apprenticeship advertisements"
+    authors: "Krüger, Kai"
+    year: 2023
+    journal: "FedCSIS Communication Papers"
+    doi: "10.15439/2023F8078"
+    description: "The paper introduces a DistilBERT-based classifier for identifying apprenticeship advertisements in German online job ads. It addresses the need to separate apprenticeship ads from regular job ads, since both reflect different labour-market dynamics and may require distinct analytical treatment."
+
 
   - title: "Das Berufe- und Kompetenzradar"
     authors: "Schnepf, Timo and Seegers, Marco"

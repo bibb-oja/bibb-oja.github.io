@@ -1,15 +1,33 @@
 members:
+  - name: "Stefan Winnige"
+    role: "Team Lead"
+    affiliation: "BIBB"
+    bio: "Working on social science perspectives on labor market analysis."
+
+
   - name: "Johanna Binnewitt"
     role: "Researcher"
     affiliation: "BIBB / Universität zu Köln"
     bio: "Hier steht was"
   
-  - name: "Hier ein weiterer Mensch"
-    role: "Senior Researcher"
-    affiliation: "Department/Institution"
-    bio: "Expertise in computational linguistics and NLP applications to occupational research."
-  
-  - name: "Team Member Name"
+  - name: "Kathrin Ehmann"
     role: "Researcher"
-    affiliation: "Department/Institution"
-    bio: "Working on social science perspectives on labor market analysis."
+    affiliation: "BIBB"
+    bio: "Labor market research."
+
+  - name: "Kristine Hein"
+    role: "Researcher"
+    affiliation: "BIBB"
+    bio: "Related VET."
+    
+  - name: "Kai Krüger"
+    role: "Researcher"
+    affiliation: "BIBB / Humboldt-Universität zu Berlin"
+    bio: "Developing NLP / IE methods for OJA research."
+
+  - name: "Timo Schnepf"
+    role: "Researcher"
+    affiliation: "BIBB"
+    bio: "Related VET."
+
+
