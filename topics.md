@@ -2,7 +2,7 @@
 layout: page
 title: Student Topics
 permalink: /topics/
-description: Potential student research topics grouped by discipline.
+
 ---
 
 <p class="section-intro">Potential student projects for computer science, digital humanities, social science, and economics focusing on job advertisement analysis.</p>
