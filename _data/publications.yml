@@ -1,7 +1,134 @@
 items:
   - title: "Improving Online Job Advertisement Analysis via Compositional Entity Extraction"
-    authors: "Kr{\"u}ger, Kai and Binnewitt, Johanna and Ehmann, Kathrin and Winnige, Stefan and Akbik, Alan"
+    authors: "Krüger, Kai and Binnewitt, Johanna and Ehmann, Kathrin and Winnige, Stefan and Akbik, Alan"
     year: 2025
     journal: "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
     doi: "10.18653/v1/2025.emnlp-main.1375"
     description: "We propose a compositional entity modeling framework for requirement extraction from online job advertisements (OJAs), representing complex, tree-like structures that connect atomic entities via typed relations. Based on this schema, we introduce GOJA, a manually annotated dataset of 500 German job ads that captures roles, tools, experience levels, attitudes, and their functional context."
+
+  - title: "„Join us to turn the world greener!\" – Investigating online apprenticeship advertisements' reference to environmental sustainability"
+    authors: "Binnewitt, Johanna and Schnepf, Timo"
+    year: 2023
+    journal: "Zum Konzept der Nachhaltigkeit in Arbeit, Beruf und Bildung – Stand in Forschung und Praxis"
+    doi: ""
+    description: "The chapter investigates how online apprenticeship advertisements refer to environmental sustainability and discusses their relevance for vocational education and training research."
+
+  - title: "KI in Stellenanzeigen"
+    authors: "Ehmann, Kathrin and Binnewitt, Johanna and Krüger, Kai and Winnige, Stefan"
+    year: 2026
+    journal: "Datenreport zum Berufsbildungsbericht 2026. Informationen und Analysen zur Entwicklung der beruflichen Bildung"
+    doi: ""
+    description: "The contribution examines references to artificial intelligence in job advertisements and discusses how AI appears in the context of vocational education and labour-market monitoring."
+
+  - title: "Exploring Linguistic and Cultural Differences in Online Job Advertisement Analysis for NLP Applications"
+    authors: "Grüner, Lea and Krüger, Kai"
+    year: 2024
+    journal: "Preprints of Communication Papers of the FedCSIS 2024"
+    doi: ""
+    description: "The paper explores linguistic and cultural differences in online job advertisement analysis and discusses their implications for NLP applications."
+
+  - title: "Improving Online Job Advertisement Analysis via Compositional Entity Extraction"
+    authors: "Krüger, Kai and Binnewitt, Johanna and Ehmann, Kathrin and Winnige, Stefan and Akbik, Alan"
+    year: 2025
+    journal: "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing"
+    doi: "10.18653/v1/2025.emnlp-main.1375"
+    description: "We propose a compositional entity modeling framework for requirement extraction from online job advertisements (OJAs), representing complex, tree-like structures that connect atomic entities via typed relations. Based on this schema, we introduce GOJA, a manually annotated dataset of 500 German job ads that captures roles, tools, experience levels, attitudes, and their functional context."
+
+  - title: "Das Berufe- und Kompetenzradar"
+    authors: "Schnepf, Timo and Seegers, Marco"
+    year: 2024
+    journal: "BWP"
+    doi: ""
+    description: "The article presents the Berufe- und Kompetenzradar as an instrument for observing occupations and skills using labour-market data."
+
+  - title: "Emphasizing the laborious side of machine learning: annotation guidelines and how to develop them"
+    authors: "Schnepf, Timo and Krüger, Kai and Binnewitt, Johanna and Winnige, Stefan and Firll, Anja"
+    year: 2024
+    journal: "BIBB Discussion Paper"
+    doi: ""
+    description: "The discussion paper focuses on the development of annotation guidelines and highlights the labour-intensive methodological work behind machine-learning datasets."
+
+  - title: "A method of qualitative inquiry in Natural Language Processing-extraction: An analysis of job tasks based on job advertisements"
+    authors: "Schulz, Wiebke and Binnewitt, Johanna and Wiesner, Timo and Winnige, Stefan"
+    year: null
+    journal: "The Role of Qualitative Methods in the Data Revolution"
+    doi: ""
+    description: "The chapter presents a qualitative inquiry approach to NLP-based extraction and applies it to the analysis of job tasks in job advertisements."
+
+  - title: "Sprache gesucht – Mehrsprachigkeit in Stellenanzeigen"
+    authors: "Settelmeyer, A. and Widera, C. and Winnige, S."
+    year: 2025
+    journal: "Sprache(n) im Beruf: Gestaltung und Förderung beruflicher Sprachbildung an den verschiedenen Lernorten"
+    doi: ""
+    description: "The chapter examines multilingualism in job advertisements and discusses its relevance for vocational language education and workplace communication."
+
+  - title: "From Job Ads to VET Insights: AI-Based Skill Extraction for Policy and Curriculum Development"
+    authors: "Winnige, Stefan and Binnewitt, Johanna and Ehmann, Kathrin and Krüger, Kai"
+    year: 2026
+    journal: "Evidence-Based VET Policy Through Data Reporting and Data Science"
+    doi: ""
+    description: "The chapter discusses how AI-based skill extraction from job advertisements can support evidence-based VET policy and curriculum development."
+
+  - title: "Extracting fuzzy concepts from online job advertisements in German"
+    authors: "Binnewitt, Johanna and Krüger, Kai"
+    year: 2022
+    journal: "2nd Workshop on Computational Linguistics for Political Text Analysis"
+    doi: ""
+    description: "The poster presents an approach to extracting fuzzy concepts from German online job advertisements."
+
+  - title: "Modelling and Annotating Requirements in German Online Job Advertisements"
+    authors: "Binnewitt, Johanna and Ehmann, Kathrin and Krüger, Kai and Winnige, Stefan"
+    year: 2024
+    journal: "CAREER goes BIBB"
+    doi: ""
+    description: "The poster presents an approach to modelling and annotating job requirements in German online job advertisements."
+
+  - title: "Same but different? An analysis of AI tasks in job ads"
+    authors: "Binnewitt, Johanna and Ehmann, Kathrin and Winnige, Stefan"
+    year: 2025
+    journal: "CAREER workshop"
+    doi: ""
+    description: "The contribution analyses AI-related tasks in job advertisements and examines differences in how AI work is represented."
+
+  - title: "Künstliche Intelligenz in Stellenanzeigen – zwischen Arbeitsmittel, Arbeitsobjekt und Unternehmensdarstellung"
+    authors: "Binnewitt, Johanna and Ehmann, Kathrin and Krüger, Kai and Winnige, Stefan"
+    year: 2025
+    journal: "BIBB-Montagsforum"
+    doi: ""
+    description: "The presentation examines how artificial intelligence appears in job advertisements, distinguishing between AI as a work tool, work object, and element of company presentation."
+
+  - title: "Disparities in AI-related tasks? Evidence from job ads in Germany"
+    authors: "Ehmann, Kathrin and Binnewitt, Johanna and Winnige, Stefan and Krüger, Kai"
+    year: 2025
+    journal: "ISA Forum"
+    doi: ""
+    description: "The contribution presents evidence from German job advertisements on disparities in AI-related tasks."
+
+  - title: "Unraveling Labor Market Flexibility through Job Advertisement Analysis"
+    authors: "Krüger, Kai"
+    year: 2024
+    journal: "BIBB-IAB-ROA WORKSHOP 2024"
+    doi: ""
+    description: "The poster explores how job advertisement analysis can be used to study labour-market flexibility."
+
+  - title: "“Join us to turn the world greener!” – Investigating online apprenticeship advertisements’ reference to environmental sustainability"
+    authors: "Schnepf, Timo"
+    year: 2022
+    journal: "Peer Learning Activity - Transition of VET towards environmental sustainability"
+    doi: ""
+    description: "The contribution investigates how apprenticeship advertisements refer to environmental sustainability in the context of VET transition."
+
+  - title: "Monitoring ecological sustainability related VET using apprenticeship job ads in Germany"
+    authors: "Schnepf, Timo"
+    year: 2024
+    journal: "Nordyrk Conference"
+    doi: ""
+    description: "The presentation discusses how apprenticeship job advertisements can be used to monitor ecological sustainability-related vocational education and training in Germany."
+
+  - title: "How Do Occupations Work? Employers, Closure and Skill Requirements"
+    authors: "Strassmann, Diego and Schulz, Wiebke and Binnewitt, Johanna"
+    year: 2025
+    journal: "ECSR 2025 Annual Conference \"Demography & Social Inequality\""
+    doi: ""
+    description: "The conference contribution examines occupations, employers, closure, and skill requirements in relation to social inequality."
+`
