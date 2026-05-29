@@ -2,17 +2,30 @@ categories:
   - name: "Computer Science / NLP"
     description: "Projects focused on computational analysis and natural language processing of job advertisements."
     items:
-      - title: "Crazy Shit"
-        description: "Do Crazy Shit with computers."
+      - title: "Boilerplate Detection in Online Job Advertisements"
+        description: "Online job advertisements often contain boilerplate-like artefacts caused by web scraping errors or irrelevant sections accidentally included in the extracted full text. Since the original HTML structure is no longer available, this project investigates machine learning approaches to identify unusable advertisements and detect boilerplate-like text passages within otherwise valid job ads. The goal is to improve the quality of large-scale job advertisement datasets by automatically filtering or removing noisy text segments."
+      - title: "Prefiltering to optimize Relation Extraction Inference for Job Advertisements"
+        description: "The GOJA pipeline extracts entities and relations from online job advertisements in a two-step process. While this approach achieves good results, relation extraction is computationally expensive because many possible entity pairs have to be evaluated individually by a second model. This project investigates efficient pre-filtering strategies that use features such as entity type, token distance, sentence position, or structural patterns to reduce the number of candidate pairs before neural relation classification. The goal is to develop a lightweight and highly efficient filtering algorithm that substantially speeds up inference while preserving extraction quality."
+      - title: "Model-Level Optimization of Relation Extraction Inference for Job Advertisements"
+        description: "The GOJA pipeline extracts entities and relations from online job advertisements in a two-step process. While this approach achieves good results, relation extraction is computationally expensive because many possible entity pairs have to be evaluated individually by a second model. This project investigates model-level strategies to reduce the number of required inference steps, for example through shared encoder architectures, joint entity–relation modelling, or other approaches that represent multiple candidate relations within a single forward pass. The goal is to make relation extraction substantially faster while preserving the quality of the extracted semantic structures."
 
   - name: "Computational Social Science / Digital Humanities"
     description: "Interdisciplinary approaches combining computational methods with analysis focused research questions."
     items:
-      - title: "Crazy DH Stuf"
-        description: "Crazy CSS and DH Stuff"
+      - title: "Classification of Formal Qualifications in Job Advertisements"
+        description: "The GOJA annotation schema captures formal qualifications such as school degrees, university degrees, vocational training, driving licences, and certificates. This project investigates how these qualifications can be systematically classified by linking extracted mentions to existing classification schemes or by developing suitable category systems where necessary. In a second step, the resulting methods are applied to automatically classify formal qualifications in job advertisements and analyse qualification requirements in a concrete labour market research question. "
+      - title: "Exploring Patterns in Desirable Job Requirements"
+        description: "Job advertisements often distinguish between mandatory requirements and additional qualifications that are desirable but not strictly required. Using existing extraction methods, this project builds on structured information about which requirements are marked as optional and then applies clustering techniques to explore recurring patterns. The analysis can focus on groups of related skills, qualifications, or experience profiles and examine how employers’ additional expectations differ across occupations, sectors, or time periods.Formal Qualications"
+      - title: "Identifying Alternative Pathways into Occupations"
+        description: "This project develops a method for identifying alternative entry routes in online job advertisements. This includes formulations that explicitly address career changers, refer to comparable professional experience, or accept equivalent qualifications instead of a specific formal credential. The project can involve building and evaluating a keyword-based search strategy, annotation rules, or a lightweight classification approach for detecting such formulations. The resulting method is then applied to analyse where employers describe access requirements more flexibly and which occupations, sectors, or regions appear especially open to non-standard career paths."
+      - title: "Requirement Density in Job Advertisements"
+        description: "This project analyses how strongly job advertisements differ in the number and structure of stated requirements. Instead of focusing on individual normalized skills or tasks, it examines broader patterns such as the number of extracted requirements per advertisement, the balance between mandatory and desirable requirements, and the relative prominence of formal qualifications, experience, and soft requirements. The project can compare occupations, sectors, regions, or time periods to investigate where job profiles are described in particularly dense or selective ways."
+
 
   - name: "Social Science / Economics"
     description: "Research on labor economics, skill demands, and occupational trends."
     items:
-      - title: "Crazy THINGS"
-        description: "Things are getting crazy."
+      - title: "Analysing Occupational Titles in Job Advertisements"
+        description: "This project analyses occupational titles extracted from online job advertisements to investigate how employers describe and position jobs in the labour market. The aim is to develop and answer a concrete research question based on the distribution and variation of occupational titles, for example whether shortage occupations use more creative or heterogeneous job titles, or whether certain sectors show a particularly broad range of formulations. In addition, extracted “or” relations between occupational titles can be used as a starting point for identifying alternative job labels and developing further research questions on occupational ambiguity and labour market signalling."
+      - title: "Vocational Training or University Degree?"
+        description: "This project examines how employers formulate formal qualification requirements in online job advertisements. Based on a focused research question, a smaller sample is selected, for example by occupation, sector, or region. The analysis distinguishes between advertisements that require only vocational training, only a university degree, or explicitly present both as alternative pathways into the same job. The project provides insight into the relationship between vocational and academic qualifications."
