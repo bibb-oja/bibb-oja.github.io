@@ -16,9 +16,9 @@ members:
     bio: "Labor market research."
 
   - name: "Kristine Hein"
-    role: "Researcher"
+    role: "Researcher and Data Wizard"
     affiliation: "BIBB"
-    bio: "Related VET."
+    bio: "Data engineering, pattern recognition and related VET ."
     
   - name: "Kai Krüger"
     role: "Researcher"
